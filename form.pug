@@ -1,0 +1,38 @@
+html
+
+   head
+      title Form Testing
+
+
+   body
+
+
+      form(action = "/", method = "POST")
+
+
+         div
+            label(for = "meno") Meno:
+            input(name = "meno" value = "")
+         br
+
+         div
+            label(for = "vek") Vek:
+            input(name = "vek" value = "")
+         br
+
+         div
+            label(for = "pohlavie") Pohlavie:
+            input(name = "pohlavie" value = "")
+         br
+
+         div
+            label(for = "test") Typ testu:
+            input(name = "testy" value = "")
+         br
+
+         div
+            label(for = "skore") Výsledné skóre:
+            input(name = "skore" value = "")
+         br
+
+         button(type = "submit") Odoslať údaje
